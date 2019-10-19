@@ -4,7 +4,7 @@ OpenWrt/LEDE LuCI for MentoHUST
 简介
 ---
 
-本软件包是 MentoHUST 的 LuCI 控制界面,
+本软件包是 MentoHUST 的 LuCI 控制界面,适用于广东技术师范大学
 
 软件包文件结构:
 ```
