@@ -82,7 +82,7 @@ startmode = o:taboption("advanced", ListValue, "startmode", translate("StartMode
 startmode:value(0, translate("Standard"))
 startmode:value(1, translate("Ruijie"))
 startmode:value(2, translate("Uses MentoHUST for Xaar certification"))
-startmode.default = "0"
+startmode.default = "1"
 
 dhcpmode = o:taboption("advanced", ListValue, "dhcpmode", translate("DhcpMode"), translate("DHCP method"))
 dhcpmode:value(0, translate("None"))
@@ -97,8 +97,10 @@ shownotify.default = "5"
 version = o:taboption("advanced", Value, "version", translate("Client Version"), translate("Client version number. If client verification is not enabled but the version number is required, it can be specified here. The format is 3.30."))
 version.default = "0.00"
 
-datafile = o:taboption("advanced", Value, "datafile", translate("DataFile"), translate("Authentication data file, if you need to verify the client, you need to set correctly"))
-datafile.default = "/etc/mentohust/"
+datafile = o:taboption("advanced", ListValue, "datafile", translate("DataFile"), translate("Authentication data file, if you need to verify the client, you need to set correctly"))
+datafile:value("/etc/1.mpf", translate("benbu"))
+datafile:value("/etc/2.mpf", translate("baiyun"))
+datafile.default = "/etc/2.mpf"
 
 dhcpscript = o:taboption("advanced", Value, "dhcpscript", translate("DhcpScript"), translate("DHCP script"))
 dhcpscript.default = "udhcpc -i"
