@@ -154,5 +154,5 @@ msgstr "清除日志"
 msgid "benbu"
 msgstr "本部"
 
-msgid "白云"
+msgid "baiyun"
 msgstr "白云"
