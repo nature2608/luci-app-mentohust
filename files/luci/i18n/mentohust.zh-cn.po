@@ -150,3 +150,9 @@ msgstr "没有设置Ping主机"
 
 msgid "Clear log"
 msgstr "清除日志"
+
+msgid "benbu"
+msgstr "本部"
+
+msgid "白云"
+msgstr "白云"
